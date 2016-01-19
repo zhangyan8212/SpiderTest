@@ -4,7 +4,9 @@ Created on 2016年1月19日
 
 @author: zy
 '''
-import scrapy
+import scrapy 
+'''hahaha
+'''
 
 class tutorialSpider(scrapy.Spider):
     name = "tutorial"
