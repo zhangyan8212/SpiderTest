@@ -5,7 +5,9 @@ Created on 2016年1月20日
 @author: zy
 '''
 import scrapy
-
+'''
+hahaha
+'''
 class DmozSpider(scrapy.Spider):
     name = "dmoz"
     allowed_domains = ["dmoz.org"]
