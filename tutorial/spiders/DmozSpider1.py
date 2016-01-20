@@ -18,6 +18,7 @@ class DmozSpider1(scrapy.Spider):
     def parse(self, response):
         for href in response.css("ul.directory.dir-col > li > a::attr('href')"):
             url = response.urljoin(href.extract())
+            #print(url)
             yield scrapy.Request(url, callback=self.parse_dir_contents)
 
     def parse_dir_contents(self, response):

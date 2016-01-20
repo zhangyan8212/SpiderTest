@@ -15,3 +15,8 @@ class TutorialItem(scrapy.Item):
     link = scrapy.Field()
     desc = scrapy.Field()
     pass
+
+class Price(scrapy.Item):
+    product = scrapy.Field()
+    price = scrapy.Field()
+    pass

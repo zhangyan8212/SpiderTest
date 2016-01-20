@@ -3,6 +3,7 @@ encoding//spider/stackoverflow_spider.py=utf-8
 encoding//tutorial/items.py=utf-8
 encoding//tutorial/pipelines.py=utf-8
 encoding//tutorial/settings.py=utf-8
+encoding//tutorial/spiders/B2cfPriceSpider.py=utf-8
 encoding//tutorial/spiders/DmozSpider.py=utf-8
 encoding//tutorial/spiders/DmozSpider1.py=utf-8
 encoding//tutorial/spiders/tutorial_spider.py=utf-8
