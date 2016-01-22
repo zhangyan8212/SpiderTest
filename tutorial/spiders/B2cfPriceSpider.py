@@ -64,6 +64,6 @@ class B2cfSpider(Spider):
             
         log.msg("拼接结束...")
         #print(look.encode(items[0]))
-        yield items[0]
+        return items
             
     
